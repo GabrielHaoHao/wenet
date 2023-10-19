@@ -8,7 +8,7 @@
 # just 1gpu, otherwise it's is multiple gpu training based on DDP in pytorch
 export CUDA_VISIBLE_DEVICES="0,1,2,3"
 stage=0 # start from 0 if you need to start from data preparation
-stop_stage=0
+stop_stage=5
 
 # You should change the following two parameters for multiple machine training,
 # see https://pytorch.org/docs/stable/elastic/run.html
